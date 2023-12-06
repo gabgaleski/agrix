@@ -1,12 +1,15 @@
 package com.betrybe.agrix.ebytr.staff.security;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import org.springframework.security.core.GrantedAuthority;
+
 /**
  * Enum representing a Role.
  */
-public enum Role {
-  ADMIN("ROLE_ADMIN"),
-  MANAGER("ROLE_MANAGER"),
-  USER("ROLE_USER");
+public enum Role implements GrantedAuthority {
+  ADMIN("ADMIN"),
+  MANAGER("MANAGER"),
+  USER("USER");
 
   private final String name;
 
@@ -16,5 +19,11 @@ public enum Role {
 
   public String getName() {
     return name;
+  }
+
+  @Override
+  @JsonIgnore
+  public String getAuthority() {
+    return this.getName();
   }
 }
