@@ -1,10 +1,19 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Projeto Agrix
+
+  <br>
+
+# :clipboard: About
+  Criação de um sistema que permitirá a gestão e o monitoramento das fazendas participantes. Para isso foi desenvolvido uma API Rest utilizando Java e todo o ecossistema do Spring Boot.
+
+<br>
+
+# :hammer_and_wrench: Skills & Tools
+
+- Java
+- Spring Boot
+- Spring Web
+- Spring Security
+- Spring Data JPA
+- JUnit
+- MySQL
+- JWT
